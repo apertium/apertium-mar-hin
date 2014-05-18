@@ -1,0 +1,3 @@
+* text=auto !eol
+/apertium-mr-hi.mr-hi.dix -text
+dev/apertium-mr-hi.mr.dix -text
