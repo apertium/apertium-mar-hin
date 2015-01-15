@@ -1,5 +1,9 @@
 * text=auto !eol
+/Makefile.am -text
 /apertium-mar-hin.mar-hin.dix -text
+/autogen.sh -text
+/configure.ac -text
 dev/apertium-mr-hi.mr.dix -text
+/modes.xml -text
 texts/story.hin.txt -text svneol=unset#application/octet-stream
 texts/story.mar.txt -text svneol=unset#application/octet-stream
