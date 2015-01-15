@@ -1,5 +1,5 @@
 * text=auto !eol
-/apertium-mr-hi.mr-hi.dix -text
+/apertium-mar-hin.mar-hin.dix -text
 dev/apertium-mr-hi.mr.dix -text
 texts/story.hin.txt -text svneol=unset#application/octet-stream
 texts/story.mar.txt -text svneol=unset#application/octet-stream
