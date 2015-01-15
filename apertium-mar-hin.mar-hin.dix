@@ -12,6 +12,7 @@
     <sdef n="n"/>
     <sdef n="vbser"/>
     <sdef n="sent"/>
+    <sdef n="cm"/>
     <sdef n="f"/>
     <sdef n="nt"/>
     <sdef n="m"/>
@@ -15860,6 +15861,7 @@
     <e><p><l>तमः<s n="avy"/></l>  <r>तमः<s n="avy"/></r></p></e>
 
     <e><re>[.\?;:!]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
 
   </section>
 </dictionary>
