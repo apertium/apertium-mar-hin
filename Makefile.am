@@ -66,6 +66,22 @@ $(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
+$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX1).t2x.bin: $(BASENAME).$(PREFIX1).t2x
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
+	apertium-validate-postchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
+	apertium-validate-postchunk $<
+	apertium-preprocess-transfer $< $@
+
 $(PREFIX1).autogen.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@

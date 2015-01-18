@@ -4,7 +4,12 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-mar-hin.hin-mar.lrx -text
+/apertium-mar-hin.hin-mar.t1x -text
+/apertium-mar-hin.hin-mar.t2x -text
+/apertium-mar-hin.hin-mar.t3x -text
 /apertium-mar-hin.mar-hin.dix -text
+/apertium-mar-hin.mar-hin.lrx -text
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-mr-hi.mr.dix -text
