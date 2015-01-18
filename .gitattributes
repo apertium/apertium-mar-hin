@@ -8,6 +8,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-mr-hi.mr.dix -text
+/hin-mar.prob -text svneol=unset#unset
 /modes.xml -text
 texts/story.hin.txt -text svneol=unset#application/octet-stream
 texts/story.mar.txt -text svneol=unset#application/octet-stream
