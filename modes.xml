@@ -35,9 +35,10 @@
       <program name="lt-proc $1">
         <file name="mar-hin.autogen.bin"/>
       </program>
+<!--
       <program name="lt-proc -p">
         <file name="mar-hin.autopgen.bin"/>
-      </program>
+      </program>-->
     </pipeline>
   </mode>
 
@@ -275,9 +276,10 @@
       <program name="lt-proc $1">
         <file name="hin-mar.autogen.bin"/>
       </program>
+<!--
       <program name="lt-proc -p">
         <file name="hin-mar.autopgen.bin"/>
-      </program>
+      </program>-->
     </pipeline>
   </mode>
   
