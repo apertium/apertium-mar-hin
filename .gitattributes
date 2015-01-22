@@ -10,6 +10,9 @@
 /apertium-mar-hin.hin-mar.t3x -text
 /apertium-mar-hin.mar-hin.dix -text
 /apertium-mar-hin.mar-hin.lrx -text
+/apertium-mar-hin.mar-hin.t1x -text
+/apertium-mar-hin.mar-hin.t2x -text
+/apertium-mar-hin.mar-hin.t3x -text
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-mr-hi.mr.dix -text
