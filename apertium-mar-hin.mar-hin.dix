@@ -4,6 +4,8 @@
 
   <sdefs>
     <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="np"/>
     <sdef n="avy"/>
     <sdef n="cnjcoo"/>
     <sdef n="CAT"/>
