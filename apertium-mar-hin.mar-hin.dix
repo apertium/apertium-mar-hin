@@ -5,6 +5,7 @@
   <sdefs>
     <sdef n="adj"/>
     <sdef n="adv"/>
+    <sdef n="ant"/>
     <sdef n="avy"/>
     <sdef n="cnjcoo"/>
     <sdef n="CAT"/>
@@ -20,6 +21,7 @@
     <sdef n="m"/>
     <sdef n="nm"/>
     <sdef n="nn"/>
+    <sdef n="nom"/>
     <sdef n="np"/>
     <sdef n="nt"/>
     <sdef n="num"/>
@@ -7253,7 +7255,7 @@
     <e><p><l>जत्रा<s n="n"/><s n="f"/></l>  <r>मेला<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>जय<s n="n-"/></l>  <r>जय<s n="n-"/></r></p></e>
     <e><p><l>जयंती<s n="np"/><s n="f"/></l>  <r>जयंति<s n="np"/><s n="f"/></r></p></e>
-    <e><p><l>मेरी<s n="np"/><s n="f"/></l>  <r>मेरी<s n="np"/><s n="f"/></r></p></e>
+    <e><p><l>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></l>  <r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>मरियम<s n="np"/><s n="f"/></l>  <r>मरियम<s n="np"/><s n="f"/></r></p></e>
     <e><p><l>जयजयकार<s n="n"/><s n="m"/></l>  <r>जयघोष<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>जय्यत<s n="avy"/></l>  <r>तैयार<s n="avy"/></r></p></e>
