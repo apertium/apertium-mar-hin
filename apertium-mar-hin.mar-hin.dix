@@ -9,6 +9,8 @@
     <sdef n="cnjcoo"/>
     <sdef n="CAT"/>
     <sdef n="i."/>
+    <sdef n="impf"/>
+    <sdef n="loc"/>
     <sdef n="n-"/>
     <sdef n="n"/>
     <sdef n="vbser"/>
@@ -21,8 +23,15 @@
     <sdef n="np"/>
     <sdef n="nt"/>
     <sdef n="num"/>
+    <sdef n="p1"/>
+    <sdef n="p3"/>
+    <sdef n="past"/>
+    <sdef n="pres"/>
+    <sdef n="pl"/>
     <sdef n="prn"/>
     <sdef n="sA.nA."/>
+    <sdef n="pri"/>
+    <sdef n="sg"/>
     <sdef n="swrI"/>
     <sdef n="vblex"/>
     <sdef n="va"/>
@@ -253,11 +262,11 @@
     <e><p><l>आहारविषयक<s n="n-"/></l>  <r>आहारविषयक<s n="n-"/></r></p></e>
     <e><p><l>आहात<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आह<s n="avy"/></l>  <r>आह<s n="avy"/></r></p></e>
-    <e><p><l>आहे<s n="vbser"/></l>  <r>है<s n="vbser"/></r></p></e>
+    <e><p><l><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></l>  <r>है<s n="vbser"/></r></p></e>
     <e><p><l>आहेच<s n="avy"/></l>  <r>है<b/>ही<s n="avy"/></r></p></e>
     <e><p><l>आहेपणा<s n="n"/><s n="m"/></l>  <r>है-पन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>आहेस<s n="avy"/></l>  <r>है<s n="avy"/></r></p></e>
-    <e><p><l>आहेत<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
+    <e><p><l><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/><s n="avy"/></l>  <r><s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
     <e><p><l>आहो<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आहोत<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आहुती<s n="n"/><s n="f"/></l>  <r>आहुती<s n="n"/><s n="f"/></r></p></e>
@@ -4454,7 +4463,7 @@
     <e><p><l>बागाईत<s n="n"/><s n="f"/></l>  <r>नहरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>बागाईतदार<s n="n"/><s n="m"/></l>  <r>बागवान<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>बाग<s n="n"/><s n="f"/></l>  <r>बाग<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>बागेत<s n="n"/><s n="f"/></l>  <r>बाग<b/>में<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>बाग<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></l>  <r>बाग<b/>में<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>बागड<s n="vblex"/></l>  <r>ठुमक<s n="vblex"/></r></p></e>
     <e><p><l>बागवान<s n="n"/><s n="m"/></l>  <r>बागबान<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>बागुलबुआ<s n="n"/><s n="m"/></l>  <r>हौआ<s n="n"/><s n="m"/></r></p></e>
@@ -6856,7 +6865,7 @@
     <e><p><l>होती<s n="avy"/></l>  <r>थी<s n="avy"/></r></p></e>
     <e><p><l>होतीस<s n="avy"/></l>  <r>थी<s n="avy"/></r></p></e>
     <e><p><l>होतकरू<s n="avy"/></l>  <r>होनहार<s n="avy"/></r></p></e>
-    <e><p><l>होते<s n="vbser"/></l>  <r>थी<s n="vbser"/></r></p></e>
+    <e><p><l><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></l><r><s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>होतो<s n="avy"/></l>  <r>था<s n="avy"/></r></p></e>
     <e><p><l>होत्साता<s n="n"/><s n="m"/></l>  <r>+होनेतक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>होत्या<s n="avy"/></l>  <r>थीं<s n="avy"/></r></p></e>
