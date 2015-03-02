@@ -262,11 +262,11 @@
     <e><p><l>आहारविषयक<s n="n-"/></l>  <r>आहारविषयक<s n="n-"/></r></p></e>
     <e><p><l>आहात<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आह<s n="avy"/></l>  <r>आह<s n="avy"/></r></p></e>
-    <e><p><l><s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></l>  <r>है<s n="vbser"/></r></p></e>
+    <e><p><l>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></l>  <r>हो<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e><p><l>आहेच<s n="avy"/></l>  <r>है<b/>ही<s n="avy"/></r></p></e>
     <e><p><l>आहेपणा<s n="n"/><s n="m"/></l>  <r>है-पन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>आहेस<s n="avy"/></l>  <r>है<s n="avy"/></r></p></e>
-    <e><p><l><s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/><s n="avy"/></l>  <r><s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></l>  <r>हो<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
     <e><p><l>आहो<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आहोत<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आहुती<s n="n"/><s n="f"/></l>  <r>आहुती<s n="n"/><s n="f"/></r></p></e>
@@ -6865,7 +6865,7 @@
     <e><p><l>होती<s n="avy"/></l>  <r>थी<s n="avy"/></r></p></e>
     <e><p><l>होतीस<s n="avy"/></l>  <r>थी<s n="avy"/></r></p></e>
     <e><p><l>होतकरू<s n="avy"/></l>  <r>होनहार<s n="avy"/></r></p></e>
-    <e><p><l><s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></l><r><s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>होतो<s n="avy"/></l>  <r>था<s n="avy"/></r></p></e>
     <e><p><l>होत्साता<s n="n"/><s n="m"/></l>  <r>+होनेतक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>होत्या<s n="avy"/></l>  <r>थीं<s n="avy"/></r></p></e>
