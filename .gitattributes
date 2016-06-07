@@ -16,6 +16,9 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-mr-hi.mr.dix -text
+dev/testvoc/bidix-unknowns.sh -text
+dev/testvoc/generation.sh -text
+dev/testvoc/streamparser.py -text
 /hin-mar.prob -text svneol=unset#unset
 /mar-hin.prob -text svneol=unset#unset
 /modes.xml -text
