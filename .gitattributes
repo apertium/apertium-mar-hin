@@ -22,5 +22,7 @@ dev/testvoc/streamparser.py -text
 /hin-mar.prob -text svneol=unset#unset
 /mar-hin.prob -text svneol=unset#unset
 /modes.xml -text
+/temp.hin -text
+texts/cuento.mar.txt -text svneol=unset#application/octet-stream
 texts/story.hin.txt -text svneol=unset#application/octet-stream
 texts/story.mar.txt -text svneol=unset#application/octet-stream
