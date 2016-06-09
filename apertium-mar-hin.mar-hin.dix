@@ -37,6 +37,16 @@
     <sdef n="swrI"/>
     <sdef n="vblex"/>
     <sdef n="va"/>
+
+
+		<sdef n="mf"/>
+		<sdef n="mfn"/>
+		<sdef n="itg"		c="interrogative" />
+		<sdef n="vaux"		c="auxiliary verb" />
+		<sdef n="part"		c="particle" />
+		<sdef n="post"		c="postposition" />
+		<sdef n="obl"		c="" />
+
   </sdefs>
 
   <section id="main" type="standard">
@@ -264,7 +274,7 @@
     <e><p><l>आहारविषयक<s n="n-"/></l>  <r>आहारविषयक<s n="n-"/></r></p></e>
     <e><p><l>आहात<s n="avy"/></l>  <r>हैं<s n="avy"/></r></p></e>
     <e><p><l>आह<s n="avy"/></l>  <r>आह<s n="avy"/></r></p></e>
-    <e><p><l>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></l>  <r>हो<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>आहे<s n="vaux"/><s n="pres"/><s n="p3"/><s n="mfn"/><s n="sg"/></l>  <r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
     <e><p><l>आहेच<s n="avy"/></l>  <r>है<b/>ही<s n="avy"/></r></p></e>
     <e><p><l>आहेपणा<s n="n"/><s n="m"/></l>  <r>है-पन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>आहेस<s n="avy"/></l>  <r>है<s n="avy"/></r></p></e>
@@ -4464,8 +4474,9 @@
     <e><p><l>बाडेचिट्ठी<s n="n"/><s n="f"/></l>  <r>सरखत<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>बागाईत<s n="n"/><s n="f"/></l>  <r>नहरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>बागाईतदार<s n="n"/><s n="m"/></l>  <r>बागवान<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>बाग<s n="n"/><s n="f"/></l>  <r>बाग<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>बाग<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></l>  <r>बाग<b/>में<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>बाग<s n="n"/><s n="f"/></l>  <r>बाग<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>बागेत<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="loc"/></l>  <r>बाग<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><b/>में<s n="post"/></r></p></e>
+
     <e><p><l>बागड<s n="vblex"/></l>  <r>ठुमक<s n="vblex"/></r></p></e>
     <e><p><l>बागवान<s n="n"/><s n="m"/></l>  <r>बागबान<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>बागुलबुआ<s n="n"/><s n="m"/></l>  <r>हौआ<s n="n"/><s n="m"/></r></p></e>
@@ -7263,9 +7274,8 @@
     <e><p><l>जेंव्हा<s n="avy"/></l>  <r>जब<s n="avy"/></r></p></e>
     <e><p><l>जेथे<s n="avy"/></l>  <r>जहाँ<s n="avy"/></r></p></e>
     <e><p><l>जेमतेम<s n="avy"/></l>  <r>जैसे<b/>तैसे<s n="avy"/></r></p></e>
-    <e><p><l>जेम्स<s n="np"/></l>  <r>जेम्स<s n="np"/></r></p></e>
+    <e><p><l>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l>  <r>जेम्स<s n="np"/><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>जेन<s n="sA.nA."/></l>  <r>जेन<s n="sA.nA."/></r></p></e>
-    <e><p><l>जेम्स<s n="np"/></l>  <r>जेम्स<s n="np"/></r></p></e>
     <e><p><l>जेरीस-ये<s n="vblex"/></l>  <r>हैरान<b/>हो<s n="vblex"/></r></p></e>
     <e><p><l>जेरुशलेम<s n="n"/><s n="m"/></l>  <r>येरुशलेम<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>जेव<s n="vblex"/></l>  <r>खाना<b/>खा<s n="vblex"/></r></p></e>
@@ -8275,7 +8285,7 @@
     <e><p><l>कोठून<s n="avy"/></l>  <r>कहाँसे<s n="avy"/></r></p></e>
     <e><p><l>कोठडी<s n="n"/><s n="f"/></l>  <r>कोठरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>कोठला<s n="adj"/></l>  <r>कहाँका<s n="adj"/></r></p></e>
-    <e><p><l>कुठे<s n="adv"/></l>  <r>कहाँ<s n="adv"/></r></p></e>
+    <e><p><l>कुठे<s n="adv"/></l>  <r>कहाँ<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>कोथळआ<s n="n"/><s n="m"/></l>  <r>पेट<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>कोथिंबीर<s n="n"/><s n="f"/></l>  <r>धनिया<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>कोबी<s n="n"/><s n="f"/></l>  <r>गोभी<s n="n"/><s n="f"/></r></p></e>
@@ -9784,6 +9794,7 @@
     <e><p><l>नागवा<s n="n"/><s n="m"/></l>  <r>नंगा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नागव<s n="vblex"/></l>  <r>नँगिया<s n="vblex"/></r></p></e>
     <e><p><l>नाही<s n="avy"/></l>  <r>नहीं<b/>है<s n="avy"/></r></p></e>
+    <e><p><l>नाही<s n="part"/></l>  <r>नहीं<s n="adv"/></r></p></e>
     <e><p><l>नाहींतर<s n="avy"/></l>  <r>बर<s n="avy"/></r></p></e>
     <e><p><l>नाहीपणा<s n="n"/><s n="m"/></l>  <r>नहीपन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नाहीसा<s n="adj"/></l>  <r>अदृश्य<s n="adj"/></r></p></e>
