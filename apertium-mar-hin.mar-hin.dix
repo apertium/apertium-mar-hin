@@ -46,7 +46,9 @@
 		<sdef n="part"		c="particle" />
 		<sdef n="post"		c="postposition" />
 		<sdef n="obl"		c="" />
-
+		<sdef n="dem"		c="" />
+		<sdef n="dst"		c="" />
+		<sdef n="sp" />
   </sdefs>
 
   <section id="main" type="standard">
@@ -1803,7 +1805,7 @@
     <e><p><l>खूश<s n="avy"/></l>  <r>खूश<s n="avy"/></r></p></e>
     <e><p><l>खूनी<s n="n"/><s n="m"/></l>  <r>खूनी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>खून<s n="n"/><s n="m"/></l>  <r>खून<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>खूप<s n="adj"/></l>  <r>बहुत<s n="adj"/></r></p></e>
+    <e><p><l>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></l>  <r>बहुत<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>खूपदा<s n="n-"/></l>  <r>बहुतबार<s n="n-"/></r></p></e>
     <e><p><l>खूर<s n="n"/><s n="m"/></l>  <r>खुर<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>खूर<s n="n"/><s n="m"/></l>  <r>पाया<s n="n"/><s n="m"/></r></p></e>
@@ -7274,7 +7276,7 @@
     <e><p><l>जेंव्हा<s n="avy"/></l>  <r>जब<s n="avy"/></r></p></e>
     <e><p><l>जेथे<s n="avy"/></l>  <r>जहाँ<s n="avy"/></r></p></e>
     <e><p><l>जेमतेम<s n="avy"/></l>  <r>जैसे<b/>तैसे<s n="avy"/></r></p></e>
-    <e><p><l>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l>  <r>जेम्स<s n="np"/><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l>  <r>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>जेन<s n="sA.nA."/></l>  <r>जेन<s n="sA.nA."/></r></p></e>
     <e><p><l>जेरीस-ये<s n="vblex"/></l>  <r>हैरान<b/>हो<s n="vblex"/></r></p></e>
     <e><p><l>जेरुशलेम<s n="n"/><s n="m"/></l>  <r>येरुशलेम<s n="n"/><s n="m"/></r></p></e>
@@ -10830,14 +10832,17 @@
     <e><p><l>पंच्याहत्तर<s n="num"/></l>  <r>पचहत्तर<s n="num"/></r></p></e>
     <e><p><l>पंडा<s n="n"/><s n="m"/></l>  <r>पंडा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>पंजाब<s n="sA.nA."/></l>  <r>पंजाब<s n="sA.nA."/></r></p></e>
-    <e><p><l>पंप<s n="n"/><s n="m"/></l>  <r>\^दमकल<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>पंप<s n="n"/><s n="m"/></l>  <r>दमकल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>पंतप्रधान<s n="n"/><s n="m"/></l>  <r>प्रधानमंत्री<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>पंतोजी<s n="n"/><s n="m"/></l>  <r>गुरुजी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>पणा<s n="avy"/></l>  <r>पन<s n="avy"/></r></p></e>
     <e><p><l>पणास-लाव<s n="vblex"/></l>  <r>बाजी<b/>लगा<s n="vblex"/></r></p></e>
+
+    <e><p><l>पण<s n="cnjcoo"/></l>  <r>मगर<s n="cnjcoo"/></r></p></e>
     <e><p><l>पण<s n="cnjcoo"/></l>  <r>पर<s n="cnjcoo"/></r></p></e>
     <e><p><l>पण<s n="cnjcoo"/></l>  <r>परंतु<s n="cnjcoo"/></r></p></e>
-    <e><p><l>पण<s n="n"/><s n="m"/></l>  <r>शर्त<s n="n"/><s n="m"/></r></p></e>
+
+<!--    <e><p><l>पण<s n="n"/><s n="m"/></l>  <r>शर्त<s n="n"/><s n="m"/></r></p></e>-->
     <e><p><l>पणजी<s n="n"/><s n="f"/></l>  <r>परदादी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>पणजोबा<s n="n"/><s n="m"/></l>  <r>परदादा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>पणती<s n="n"/><s n="f"/></l>  <r>दिआली<s n="n"/><s n="f"/></r></p></e>
@@ -15108,7 +15113,7 @@
     <e><p><l>तिव्र<s n="avy"/></l>  <r>\^जबरी<s n="avy"/></r></p></e>
     <e><p><l>तिव्रता<s n="n"/><s n="f"/></l>  <r>\^जबरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>तितका<s n="adj"/></l>  <r>उतना<s n="adj"/></r></p></e>
-    <e><p><l>तो<s n="prn"/></l>  <r>वह<s n="prn"/></r></p></e>
+    <e><p><l>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
     <e><p><l>तोळआ<s n="n"/><s n="m"/></l>  <r>तोला<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>तोळआमास-हो<s n="vblex"/></l>  <r>माशा<b/>तोला<b/>हो<s n="vblex"/></r></p></e>
     <e><p><l>तों<s n="avy"/></l>  <r>इतने<b/>में<s n="avy"/></r></p></e>
