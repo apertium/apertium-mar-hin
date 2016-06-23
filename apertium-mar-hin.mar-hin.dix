@@ -50,6 +50,10 @@
 		<sdef n="sp" />
 		<sdef n="interr"		c="interrogative" />
 		<sdef n="aa"		c="" />
+		<sdef n="inf"		c="" />
+		<sdef n="incp"		c="" />
+		<sdef n="tv"		c="" />
+
   </sdefs>
 
   <section id="main" type="standard">
@@ -1987,7 +1991,9 @@
     <e><p><l>खदिरांगार<s n="n"/><s n="m"/></l>  <r>खैरका<b/>अंगारा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>खेळआडू<s n="n"/><s n="m"/></l>  <r>खिलाडी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>खेळईमेळईने<s n="avy"/></l>  <r>मिलजुलकर<s n="avy"/></r></p></e>
-    <e><p><l>खेळअ<s n="vblex"/></l>  <r>खेल<s n="vblex"/></r></p></e>
+    <e><p><l>खेळ<s n="vblex"/></l>  <r>खेल<s n="vblex"/></r></p></e>
+    <e><p><l>खेळणे<s n="vblex"/><s n="incp"/></l>  <r>खेल<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e>
+
     <e><p><l>खेळअ<s n="n"/><s n="m"/></l>  <r>खेल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>खेळअखंडोवा<s n="n"/><s n="m"/></l>  <r>खेलवाड<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>खेळअणे<s n="n"/><s n="nt"/></l>  <r>खिलौना<s n="n"/><s n="m"/></r></p></e>
@@ -7274,6 +7280,9 @@
     <e><p><l>जय<s n="n"/></l>  <r>जय<s n="n"/></r></p></e>
     <e><p><l>जयंती<s n="np"/><s n="f"/></l>  <r>जयंति<s n="np"/><s n="f"/></r></p></e>
     <e><p><l>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></l>  <r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e><p><l>मेरी<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></l>  <r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+
     <e><p><l>मरियम<s n="np"/><s n="f"/></l>  <r>मरियम<s n="np"/><s n="f"/></r></p></e>
     <e><p><l>जयजयकार<s n="n"/><s n="m"/></l>  <r>जयघोष<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>जय्यत<s n="avy"/></l>  <r>तैयार<s n="avy"/></r></p></e>
