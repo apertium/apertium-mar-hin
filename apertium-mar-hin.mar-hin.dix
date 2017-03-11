@@ -3,11 +3,9 @@
   <alphabet/>
 
   <sdefs>
-    <sdef n="adj"/>
-    <sdef n="adv"/>
     <sdef n="ant"/>
-    <sdef n="adv"/>
-    <sdef n="adj"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
     <sdef n="avy"/>
     <sdef n="cnjcoo"/>
     <sdef n="CAT"/>
@@ -10031,10 +10029,9 @@
     <e><p><l>नटवा<s n="n"/><s n="m"/></l>  <r>नखरेल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नटवेपणा<s n="n"/><s n="m"/></l>  <r>नखरा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नवा<s n="adj"/></l>  <r>नया<s n="adj"/></r></p></e>
-    <e><p><l>नवा<s n="adj"/></l>  <r>नया<s n="adj"/></r></p></e>
     <e><p><l>नवाश्मयुग<s n="n"/><s n="nt"/></l>  <r>नवपाषाण<b/>युग<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नवार<s n="n"/><s n="f"/></l>  <r>निवार-ड<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>नवीन<s n="adv"/></l>  <r>नवीन<s n="adv"/></r></p></e>
+    <e><p><l>नवीन<s n="adj"/></l>  <r>नया<s n="adj"/></r></p></e>
     <e><p><l>नवीनता<s n="n"/><s n="f"/></l>  <r>नवीन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>नवखा<s n="n"/><s n="m"/></l>  <r>नया<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नवअश्मयुग<s n="n"/><s n="m"/></l>  <r>नवपाषाण<b/>युग<s n="n"/><s n="m"/></r></p></e>
@@ -10056,7 +10053,7 @@
     <e><p><l>नवविधा<s n="n"/></l>  <r>नवविधा<s n="n"/></r></p></e>
     <e><p><l>नवती<s n="n"/><s n="f"/></l>  <r>नयेपन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>नवे<s n="adv"/></l>  <r>नये<s n="adv"/></r></p></e>
-    <e><p><l>नवेनवे<s n="adv"/></l>  <r>नयेनये<s n="adv"/></r></p></e>
+    <e><p><l>नवेनवे<s n="adj"/></l>  <r>नयेनये<s n="adj"/></r></p></e>
     <e><p><l>नव्हा<s n="adv"/></l>  <r>नहीं<s n="adv"/></r></p></e>
     <e><p><l>नव्हां<s n="adv"/></l>  <r>नहीं<s n="adv"/></r></p></e>
     <e><p><l>नव्हस<s n="adv"/></l>  <r>नहीं<b/>हो<s n="adv"/></r></p></e>
