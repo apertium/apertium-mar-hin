@@ -286,7 +286,8 @@
     <e><p><l>आहेच<s n="adv"/></l>  <r>है<b/>ही<s n="adv"/></r></p></e>
     <e><p><l>आहेपणा<s n="n"/><s n="m"/></l>  <r>है-पन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>आहेस<s n="adv"/></l>  <r>है<s n="adv"/></r></p></e>
-    <e><p><l>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></l>  <r>हो<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+    <!-- <e><p><l>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></l>  <r>हो<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e> -->
+    <e><p><l>असणे<s n="vaux"/></l>  <r>हो<s n="vbser"/></r></p></e> 
     <e><p><l>आहो<s n="adv"/></l>  <r>हैं<s n="adv"/></r></p></e>
     <e><p><l>आहोत<s n="adv"/></l>  <r>हैं<s n="adv"/></r></p></e>
     <e><p><l>आहुती<s n="n"/><s n="f"/></l>  <r>आहुती<s n="n"/><s n="f"/></r></p></e>
@@ -6894,7 +6895,7 @@
     <e><p><l>होती<s n="adv"/></l>  <r>थी<s n="adv"/></r></p></e>
     <e><p><l>होतीस<s n="adv"/></l>  <r>थी<s n="adv"/></r></p></e>
     <e><p><l>होतकरू<s n="adv"/></l>  <r>होनहार<s n="adv"/></r></p></e>
-    <e><p><l>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <!-- <e><p><l>आहे<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e> -->
     <e><p><l>होतो<s n="adv"/></l>  <r>था<s n="adv"/></r></p></e>
     <e><p><l>होत्साता<s n="n"/><s n="m"/></l>  <r>+होनेतक<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>होत्या<s n="adv"/></l>  <r>थीं<s n="adv"/></r></p></e>

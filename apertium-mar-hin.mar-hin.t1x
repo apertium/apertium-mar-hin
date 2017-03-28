@@ -42,7 +42,7 @@
       <attr-item tags="m"/>
       <attr-item tags="f"/>
     </def-attr>
-    <def-attr n="number">
+    <def-attr n="number_tag">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -106,7 +106,7 @@
             <clip pos="1" side="tl" part="tense"/> 
             <clip pos="1" side="tl" part="person"/> 
             <clip pos="1" side="tl" part="gender"/> 
-            <clip pos="1" side="tl" part="number"/> 
+            <clip pos="1" side="tl" part="number_tag"/> 
           <!-- <lit-tag v="iv"/> -->
         </lu>
         </out>
