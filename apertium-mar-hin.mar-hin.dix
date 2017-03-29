@@ -57,6 +57,11 @@
   </sdefs>
 
   <section id="main" type="standard">
+    <e><p><l>हा</l><r>यह</r></p></e>
+    <e><p><l>इ.</l><r>आदि</r></p></e>
+    <e><p><l>करणे</l><r>करना</r></p></e>
+    <e><p><l>होणे</l><r>होना</r></p></e>
+
     <e><p><l>-आड<s n="adv"/></l>  <r>ओटमें<s n="adv"/></r></p></e>
     <e><p><l>आ-वास<s n="vblex"/></l>  <r>मुँह<b/>बाना<s n="vblex"/></r></p></e>
     <e><p><l>आभाळअ<s n="n"/><s n="nt"/></l>  <r>आकाश<s n="n"/><s n="m"/></r></p></e>
@@ -9256,7 +9261,8 @@
     <e><p><l>मधला<s n="adj"/></l>  <r>बीचमें<s n="adj"/></r></p></e>
     <e><p><l>मधला<s n="n"/><s n="m"/></l>  <r>बीचका<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>मधमाशी<s n="n"/><s n="f"/></l>  <r>मधुमक्खी<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>मधे<s n="adv"/></l>  <r>बीच<s n="adv"/></r></p></e>
+    <e><p><l>मधे</l>  <r>बीच</r></p></e>
+    <!-- <e><p><l>मधे<s n="adv"/></l>  <r>बीच<s n="adv"/></r></p></e> -->
     <e><p><l>मधोमध<s n="adv"/></l>  <r>बीचोबीच<s n="adv"/></r></p></e>
     <e><p><l>मधुन<s n="adv"/></l>  <r>बीच<b/>में<b/>से<s n="adv"/></r></p></e>
     <e><p><l>मध्यभागी<s n="n"/></l>  <r>बीचोंबीच<s n="n"/></r></p></e>
@@ -9482,7 +9488,10 @@
     <e><p><l>म्हातारडा<s n="n"/><s n="m"/></l>  <r>बुइडवा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>म्हातारपण<s n="n"/><s n="nt"/></l>  <r>बुढापा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>म्हैस<s n="n"/><s n="f"/></l>  <r>भैंस<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>म्हणून<s n="adv"/></l>  <r>इसलिये<s n="adv"/></r></p></e>
+    <!-- <e><p><l>म्हणून<s n="adv"/></l>  <r>इसलिये<s n="adv"/></r></p></e> -->
+    <!-- manhoon should be adverb but monodix says it can be vblex too, check later if manhoon MUST be an adverb -->
+    <e><p><l>म्हणून</l>  <r>इसलिये</r></p></e>
+    <e><p><l>म्हणून</l>  <r>इसीलिए</r></p></e>
     <e><p><l>म्हणून<s n="adv"/></l>  <r>कह<b/>कर<s n="adv"/></r></p></e>
     <e><p><l>म्हण<s n="n"/><s n="f"/></l>  <r>कहावत<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>म्हण<s n="vblex"/></l>  <r>कथन<s n="vblex"/></r></p></e>
@@ -15131,7 +15140,7 @@
     <e><p><l>तिव्र<s n="adv"/></l>  <r>\^जबरी<s n="adv"/></r></p></e>
     <e><p><l>तिव्रता<s n="n"/><s n="f"/></l>  <r>\^जबरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>तितका<s n="adj"/></l>  <r>उतना<s n="adj"/></r></p></e>
-    <e><p><l>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
+    <e><p><l>तो</l>  <r>वह</r></p></e>
     <e><p><l>तोळआ<s n="n"/><s n="m"/></l>  <r>तोला<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>तोळआमास-हो<s n="vblex"/></l>  <r>माशा<b/>तोला<b/>हो<s n="vblex"/></r></p></e>
     <e><p><l>तों<s n="adv"/></l>  <r>इतने<b/>में<s n="adv"/></r></p></e>
