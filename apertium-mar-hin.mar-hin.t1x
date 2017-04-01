@@ -2,6 +2,7 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -17,6 +18,13 @@
      <def-cat n="biti-clt">
        <cat-item tags="prn.*"/>
      </def-cat>
+      <def-cat n="iv">
+       <cat-item tags=".*iv.*"/>
+     </def-cat>
+      <def-cat n="tv">
+       <cat-item tags=".*tv.*"/>
+     </def-cat>
+
    </section-def-cats>
    <section-def-attrs>
      <def-attr n="a_nom">
@@ -58,7 +66,11 @@
        <attr-item tags="adv"/>
        <attr-item tags="adj"/>
      </def-attr>
- 
+     <def-attr n="tviv">
+      <attr-item tags="iv"/>
+      <attr-item tags="tv"/>
+    </def-attr>
+
    </section-def-attrs>
    <section-def-vars>
      <def-var n="number"/>
@@ -94,6 +106,7 @@
      <rule>
        <pattern>
          <pattern-item n="fut"/>
+         <!-- <pattern-item n="tv"/> -->
        </pattern>
        <action>
          <!-- <let><clip pos="1" side="tl" part="tense"/><lit-tag v="fut"/> </let> -->
@@ -103,15 +116,15 @@
             <!-- <clip pos="1" side="tl" part="whole"/> -->
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="lem_pos"/>
-            <lit-tag v="iv"/>
+            <lit-tag v="tv"/>
             <clip pos="1" side="tl" part="tense"/>
             <clip pos="1" side="tl" part="person"/>
             <clip pos="1" side="tl" part="gender"/>
             <clip pos="1" side="tl" part="number_attr"/>
-          <!-- <lit-tag v="iv"/> -->
         </lu>
         </out>
       </action>
     </rule>
+    
   </section-rules>
 </transfer>
