@@ -54,6 +54,7 @@
      </def-attr>
      <def-attr n="lem_pos">
        <attr-item tags="vblex"/>
+       <attr-item tags="vaux"/>
        <attr-item tags="adv"/>
        <attr-item tags="adj"/>
      </def-attr>
