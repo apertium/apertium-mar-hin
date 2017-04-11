@@ -14871,7 +14871,7 @@
     <e><p><l>तात्या<s n="sA.nA."/></l>  <r>तात्या<s n="sA.nA."/></r></p></e>
     <e><p><l>तायोतोषी<s n="sA.nA."/></l>  <r>तायोतोषी<s n="sA.nA."/></r></p></e>
     <e><p><l>तैनात<s n="adv"/></l>  <r>तैनात<s n="adv"/></r></p></e>
-    <e><p><l>ती<s n="prn"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
+    <e><p><l>ती<s n="prn"/><s n="dem"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
     <e><p><l>तीळअ<s n="n"/><s n="m"/></l>  <r>1.तिल<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>तील<s n="n"/><s n="m"/></l>  <r>तील<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>तीन<s n="n"/><s n="nt"/></l>  <r>तीन<s n="n"/><s n="m"/></r></p></e>
@@ -15078,7 +15078,7 @@
     <e><p><l>तद्वतच<s n="adv"/></l>  <r>उसीतरह<b/>ही<s n="adv"/></r></p></e>
     <e><p><l>तयारी<s n="n"/></l>  <r>तैयारी<s n="n"/></r></p></e>
     <e><p><l>तयार<s n="adv"/></l>  <r>तैयार<s n="adv"/></r></p></e>
-    <e><p><l>ते<s n="prn"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
+    <e><p><l>ते<s n="prn"/><s n="dem"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
     <e><p><l>तेढ<s n="n"/><s n="f"/></l>  <r>अनबन<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>तेंव्हा<s n="adv"/></l>  <r>तब<s n="adv"/></r></p></e>
     <e><p><l>तेंव्हापासून<s n="adv"/></l>  <r>तब<b/>से<s n="adv"/></r></p></e>
@@ -15169,7 +15169,7 @@
     <e><p><l>तिव्रता<s n="n"/><s n="f"/></l>  <r>\^जबरी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>तितका<s n="adj"/></l>  <r>उतना<s n="adj"/></r></p></e>
     <!-- <e><p><l>तो<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></l>  <r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e> -->
-    <e><p><l>तो<s n="prn"/></l>  <r>वह<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>तो<s n="prn"/></l>  <r>वह<s n="prn"/></r></p></e>
     <e><p><l>तोळआ<s n="n"/><s n="m"/></l>  <r>तोला<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>तोळआमास-हो<s n="vblex"/></l>  <r>माशा<b/>तोला<b/>हो<s n="vblex"/></r></p></e>
     <e><p><l>तों<s n="adv"/></l>  <r>इतने<b/>में<s n="adv"/></r></p></e>
