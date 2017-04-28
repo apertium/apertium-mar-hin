@@ -34,6 +34,9 @@
     <sdef n="pri"/>
     <sdef n="sg"/>
     <sdef n="swrI"/>
+    <sdef n="indef"     c="Indefinite" />
+    <sdef n="det" />
+
     <sdef n="vblex"/>
     <sdef n="va"/>
     <sdef n="pers"     c="Personal"/>    
@@ -4527,7 +4530,7 @@
     <e><p><l>बाही<s n="n"/><s n="f"/></l>  <r>बाँह<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>बाहेरील<s n="adv"/></l>  <r>बाहरी<s n="adv"/></r></p></e>
     <e><p><l>बाहेरून<s n="adv"/></l>  <r>बाहर<b/>से<s n="adv"/></r></p></e>
-    <e><p><l>बाहेर<s n="n"/></l>  <r>बाहर<s n="adv"/></r></p></e>
+    <e><p><l>बाहेर<s n="post"/><s n="adv"/></l>  <r>बाहर<s n="adv"/></r></p></e>
     <e><p><l>बाहेरख्याली<s n="n"/><s n="f"/></l>  <r>व्यभिचारी<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>बाहेरख्याल<s n="adv"/></l>  <r>व्यभिचार<s n="adv"/></r></p></e>
     <e><p><l>बाहेरचा<s n="adj"/></l>  <r>बाहर<b/>का<s n="adj"/></r></p></e>
@@ -5886,7 +5889,7 @@
     <e><p><l>एअर<s n="i."/></l>  <r>एअर<s n="i."/></r></p></e>
     <e><p><l>एच<s n="n"/><s n="m"/></l>  <r>एच<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>एडका<s n="n"/><s n="m"/></l>  <r>भेडा<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>एका<s n="adv"/></l>  <r>एक<s n="adv"/></r></p></e>
+    <e><p><l>एक<s n="det"/><s n="indef"/></l>  <r>एक<s n="det"/><s n="indef"/></r></p></e>
     <e><p><l>एकांडा<s n="n"/><s n="m"/></l>  <r>अकेला<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>एकांगी<s n="adv"/></l>  <r>एकपक्षीय<s n="adv"/></r></p></e>
     <e><p><l>एकांगीपणा<s n="n"/><s n="m"/></l>  <r>एकपक्षीय<s n="n"/><s n="m"/></r></p></e>
@@ -10124,7 +10127,7 @@
     <e><p><l>नेभळआ<s n="n"/><s n="m"/></l>  <r>नामर्द<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नेढे<s n="n"/><s n="nt"/></l>  <r>आँख<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>नेणता<s n="n"/><s n="m"/></l>  <r>अनजान<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>नेहमी<s n="n"/></l>  <r>हमेशा<s n="n"/></r></p></e>
+    <e><p><l>नेहमी<s n="adv"/></l>  <r>हमेशा<s n="adv"/></r></p></e>
     <e><p><l>नेमून-दे<s n="vblex"/></l>  <r>नियत<s n="vblex"/></r></p></e>
     <e><p><l>नेमून<b/>दे<s n="vblex"/></l>  <r>नियत<s n="vblex"/></r></p></e>
     <e><p><l>नेम<s n="vblex"/></l>  <r>नियुक्त<b/>कर<s n="vblex"/></r></p></e>
