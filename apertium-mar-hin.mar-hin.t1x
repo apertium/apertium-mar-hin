@@ -12,7 +12,7 @@
       <cat-item tags=".*.*.*.*nom.*"/>
     </def-cat>
     <def-cat n="dstt">
-      <cat-item tags=".*.*.*.*.*dst.*"/>
+      <cat-item tags=".*.*.*.*.*dist.*"/>
     </def-cat>
     <def-cat n="dem_cat">
       <cat-item tags="dem.*"/>
@@ -55,6 +55,13 @@
       <def-cat n="tv">
        <cat-item tags=".*tv.*"/>
      </def-cat>
+     <def-cat n="adj">
+	<cat-item tags="adj.*"/>
+     </def-cat>
+	<def-cat n="det">
+	  <cat-item tags="det.*"/>
+	</def-cat>
+
 
    </section-def-cats>
    <section-def-attrs>
@@ -62,7 +69,7 @@
        <attr-item tags="n"/>
      </def-attr>
      <def-attr n="a_cas">
-       <attr-item tags="nomi"/>
+       <attr-item tags="nom"/>
        <attr-item tags="acc"/>
        <attr-item tags="dat"/>
        <attr-item tags="gen"/>
@@ -76,8 +83,8 @@
        <attr-item tags="loc"/>       <!--c="Locative"/> -->
        <attr-item tags="rel"/>      <!--c="Relative"/>    -->
        <attr-item tags="dem"/>      <!--c="Demonstrative"/>-->
-       <attr-item tags="prx"/>      <!--c="Proximate"/>-->
-       <attr-item tags="dst"/>      <!--c="Distant"/>          -->
+       <attr-item tags="prox"/>      <!--c="Proximate"/>-->
+       <attr-item tags="dist"/>      <!--c="Distant"/>          -->
        <attr-item tags="aa" />      <!--c="Animate"/>-->
        <attr-item tags="nn" />      <!--c="Inanimate"/>       -->
        <attr-item tags="itg"/>      <!--c="Interrogative"/>     -->
@@ -117,12 +124,17 @@
       <attr-item tags="iv"/>
       <attr-item tags="tv"/>
     </def-attr>
+	<def-attr n="posi">
+	<attr-item tags="prox"/>
+	<attr-item tags="dist"/>
+	</def-attr>
 
    </section-def-attrs>
    <section-def-vars>
      <def-var n="number"/>
      <def-var n="ex1"/>
      <def-var n="current_verb"/>
+     <def-var n="adj_nbr"/>
    </section-def-vars>
    <section-def-lists>
     <def-list n="prn_dem">
@@ -209,7 +221,7 @@
       </action>
     </rule>
     <rule>
-      <!-- <s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/> -->
+      <!-- <s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/> -->
        <pattern>
          <pattern-item n="pronoun"/>
          <!-- <pattern-item n="p3_cat"/> -->
@@ -255,15 +267,112 @@
             <!-- <clip pos="1" side="tl" part="tense"/> -->
             <clip pos="1" side="tl" part="gender"/>
             <clip pos="1" side="tl" part="number_attr"/>
-            <lit-tag v="dst"/> 
+            <lit-tag v="dist"/> 
             <lit-tag v="nom"/>
             <!-- <clip pos="1" side="tl" part=""/> -->
 
         </lu>
       </chunk>
-        </out>
-      </action>
-    </rule>
-    
-  </section-rules>
+         </out>
+       </action>
+     </rule>
+
+
+     <rule comment="adj nom">
+       <pattern>
+	 <pattern-item n="adj"/>
+	 <pattern-item n="nom"/>
+       </pattern>
+       <action>
+	  <out>
+	    <chunk name="adj_nom" case="caseFirstWord">
+              <tags>
+	        <tag><lit-tag v="SN"/></tag>
+	      </tags>
+	      <lu>
+	        <clip pos="1" side="tl" part="lem"/>
+		<lit-tag v="adj"/>
+		<clip pos="2" side="tl" part="gender"/>
+		<clip pos="2" side="tl" part="number_attr"/>
+		<clip pos="2" side="tl" part="a_cas"/>
+	      </lu>
+	      <b />
+	      <lu>
+	  	<clip pos="2" side="tl" part="whole"/>
+		</lu>
+	    </chunk>
+  	  </out>
+       </action>
+     </rule>
+
+     <rule comment="dem nom">
+       <pattern>
+	<pattern-item n="det"/>
+	 <pattern-item n="nom"/>
+       </pattern>
+       <action>
+	  <out>
+	    <chunk name="dem_nom" case="caseFirstWord">
+              <tags>
+	        <tag><lit-tag v="SN"/></tag>
+	      </tags>
+	     <lu>
+	        <clip pos="1" side="tl" part="lem"/>
+		<lit-tag v="prn"/>
+		<lit-tag v="dem"/>
+		<lit-tag v="p3"/>
+		<lit-tag v= "mf"/>
+		<clip pos="2" side="tl" part="number_attr"/>
+	  	<clip pos="1" side="sl" part="posi"/>
+		<clip pos="2" side="tl" part="a_cas"/>
+	      </lu>
+	      <b />
+	      <lu>
+	  	<clip pos="2" side="tl" part="whole"/>
+		</lu>
+	    </chunk>
+  	  </out>
+       </action>
+     </rule>
+
+     <rule comment="dem adj nom">
+       <pattern>
+	<pattern-item n="det"/>
+	 <pattern-item n="adj"/>
+	 <pattern-item n="nom"/>
+       </pattern>
+       <action>
+	  <out>
+	    <chunk name="dem_adj_nom" case="caseFirstWord">
+              <tags>
+	        <tag><lit-tag v="SN"/></tag>
+	      </tags>
+	     <lu>
+	        <clip pos="1" side="tl" part="lem"/>
+		<lit-tag v="prn"/>
+		<lit-tag v="dem"/>
+		<lit-tag v="p3"/>
+		<lit-tag v= "mf"/>
+		<clip pos="3" side="tl" part="number_attr"/>
+	  	<clip pos="1" side="sl" part="posi"/>
+		<clip pos="3" side="tl" part="a_cas"/>
+	      </lu>
+	      <b />
+	      <lu>
+	        <clip pos="2" side="tl" part="lem"/>
+		<lit-tag v="adj"/>
+		<clip pos="3" side="tl" part="gender"/>
+		<clip pos="3" side="tl" part="number_attr"/>
+		<clip pos="3" side="tl" part="a_cas"/>
+	      </lu>
+	      <b />
+	      <lu>
+	  	<clip pos="3" side="tl" part="whole"/>
+		</lu>
+	    </chunk>
+  	  </out>
+       </action>
+     </rule>
+   </section-rules>
+
 </transfer>
