@@ -36,14 +36,15 @@
     <sdef n="swrI"/>
     <sdef n="indef"     c="Indefinite" />
     <sdef n="det" />
+    <sdef n="clit"/>
 
     <sdef n="vblex"/>
     <sdef n="va"/>
-    <sdef n="pers"     c="Personal"/>    
-    <sdef n="p2"     c="Second Person"/>    
+    <sdef n="pers"     c="Personal"/>
+    <sdef n="p2"     c="Second Person"/>
 
 
-    <sdef n="cnjadv"  c="adverbial conjunction"/>              
+    <sdef n="cnjadv"  c="adverbial conjunction"/>
 
 		<sdef n="mf"/>
 		<sdef n="mfn"/>
@@ -315,7 +316,7 @@
     <e><p><l>आहेपणा<s n="n"/><s n="m"/></l>  <r>है-पन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>आहेस<s n="adv"/></l>  <r>है<s n="adv"/></r></p></e>
     <!-- <e><p><l>आहे<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></l>  <r>हो<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e> -->
-    <e><p><l>असणे<s n="vaux"/><s n="p1"/></l>  <r>हो<s n="vbser"/><s n="p1"/></r></p></e> 
+    <e><p><l>असणे<s n="vaux"/><s n="p1"/></l>  <r>हो<s n="vbser"/><s n="p1"/></r></p></e>
     <e><p><l>आहो<s n="adv"/></l>  <r>हैं<s n="adv"/></r></p></e>
     <e><p><l>आहोत<s n="adv"/></l>  <r>हैं<s n="adv"/></r></p></e>
     <e><p><l>आहुती<s n="n"/><s n="f"/></l>  <r>आहुती<s n="n"/><s n="f"/></r></p></e>
@@ -5752,6 +5753,7 @@
     <e><p><l>चुटकी-सरशी<s n="adv"/></l>  <r>चुटकी<b/>बजाते<s n="adv"/></r></p></e>
     <e><p><l>चुटपुट<s n="n"/><s n="f"/></l>  <r>हसरत<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>च्या<s n="adv"/></l>  <r>का<b/>ई<b/>ए<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>च्या<s n="clit"/></l>  <r></r></p></e>
     <e><p><l>च्यावतीने<s n="adv"/></l>  <r>की<b/>तरफसे<s n="adv"/></r></p></e>
     <e><p><l>च्यावेळई<s n="adv"/></l>  <r>के-समय<s n="adv"/></r></p></e>
     <e><p><l>ड्<s n="adv"/></l>  <r>ड्<s n="adv"/></r></p></e>

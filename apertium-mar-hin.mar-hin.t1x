@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
-  
+
   <section-def-cats>
-    
+
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -112,7 +112,7 @@
        <attr-item tags="p2"/>
        <attr-item tags="p3"/>
      </def-attr>
-   
+
      <def-attr n="lem_pos">
        <attr-item tags="vblex"/>
        <attr-item tags="vaux"/>
@@ -172,7 +172,7 @@
      </def-macro>
    </section-def-macros>
    <section-rules>
- 
+
      <rule comment="REGLA: SENT">
        <pattern>
          <pattern-item n="sent"/>
@@ -259,7 +259,7 @@
             <clip pos="1" side="tl" part="lem_pos"/>
             <!-- <clip pos="1" side="tl" part="ex1"/>  -->
             <!-- <clip  -->
-            <lit-tag v="dem"/> 
+            <lit-tag v="dem"/>
             <!-- <clip pos="1" side="tl" part="extra_1"/> -->
             <!-- <lit-tag v="dem"/> -->
 

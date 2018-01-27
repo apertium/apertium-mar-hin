@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
   <!-- == Marathi → Hindi == -->
- 
-  <mode name="mar-hin-debug" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mar-hin.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="mar-hin.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b -b">
-        <file name="apertium-mar-hin.mar-hin.t1x"/>
-        <file name="mar-hin.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-mar-hin.mar-hin.t2x"/>
-        <file name="mar-hin.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-mar-hin.mar-hin.t3x"/>
-        <file name="mar-hin.t3x.bin"/>
-      </program>
-      <program name="lt-proc -d">
-        <file name="mar-hin.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
 
-  <mode name="mar-hin" install="yes">
+  <mode name="mar-hin" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="mar-hin.automorf.bin"/>
@@ -46,9 +10,9 @@
       <program name="cg-proc -w">
         <file name="mar-hin.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <!-- <program name="apertium-tagger -g $2">
         <file name="mar-hin.prob"/>
-      </program>
+      </program> -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="mar-hin.autobil.bin"/>
@@ -71,23 +35,13 @@
       <program name="lt-proc $1">
         <file name="mar-hin.autogen.bin"/>
       </program>
-<!--
-      <program name="lt-proc -p">
+      <!-- <program name="lt-proc -p">
         <file name="mar-hin.autopgen.bin"/>
-      </program>-->
+      </program> -->
     </pipeline>
   </mode>
 
-
-  <mode name="mar-hin-anmor">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="mar-hin-disam">
+  <mode name="mar-hin-disam-trace" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="mar-hin.automorf.bin"/>
@@ -99,72 +53,17 @@
     </pipeline>
   </mode>
 
-  <mode name="mar-hin-pretransfer">
+  <mode name="mar-hin-untrimmed" install="no">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
+        <file name="mar-hin.automorf-untrimmed.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="mar-hin.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <!-- <program name="apertium-tagger -g $2">
         <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="mar-hin-biltrans">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mar-hin.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-
-  <mode name="mar-hin-lextor">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mar-hin.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m -t">
-        <file name="mar-hin.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="mar-hin-transfer">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
+      </program> -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="mar-hin.autobil.bin"/>
@@ -172,94 +71,7 @@
       <program name="lrx-proc -m">
         <file name="mar-hin.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -t -b">
-        <file name="apertium-mar-hin.mar-hin.t1x"/>
-        <file name="mar-hin.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="mar-hin-interchunk">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mar-hin.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="mar-hin.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-mar-hin.mar-hin.t1x"/>
-        <file name="mar-hin.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-mar-hin.mar-hin.t2x"/>
-        <file name="mar-hin.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="mar-hin-postchunk">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mar-hin.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="mar-hin.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-mar-hin.mar-hin.t1x"/>
-        <file name="mar-hin.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-mar-hin.mar-hin.t2x"/>
-        <file name="mar-hin.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-mar-hin.mar-hin.t3x"/>
-        <file name="mar-hin.t3x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="mar-hin-generador">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="mar-hin.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="mar-hin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="mar-hin.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="mar-hin.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="mar-hin.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -b">
         <file name="apertium-mar-hin.mar-hin.t1x"/>
         <file name="mar-hin.t1x.bin"/>
       </program>
@@ -274,12 +86,15 @@
       <program name="lt-proc $1">
         <file name="mar-hin.autogen.bin"/>
       </program>
+      <!-- <program name="lt-proc -p">
+        <file name="mar-hin.autopgen.bin"/>
+      </program> -->
     </pipeline>
   </mode>
 
   <!-- == Hindi → Marathi == -->
-  
-  <mode name="hin-mar-debug" install="no">
+
+  <mode name="hin-mar" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="hin-mar.automorf.bin"/>
@@ -287,46 +102,9 @@
       <program name="cg-proc -w">
         <file name="hin-mar.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <!-- <program name="apertium-tagger -g $2">
         <file name="hin-mar.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="hin-mar.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-mar-hin.hin-mar.t1x"/>
-        <file name="hin-mar.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-mar-hin.hin-mar.t2x"/>
-        <file name="hin-mar.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-mar-hin.hin-mar.t3x"/>
-        <file name="hin-mar.t3x.bin"/>
-      </program>
-      <program name="lt-proc -d">
-        <file name="hin-mar.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
- 
-  <mode name="hin-mar" install="yes">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
+      </program> -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="hin-mar.autobil.bin"/>
@@ -349,22 +127,13 @@
       <program name="lt-proc $1">
         <file name="hin-mar.autogen.bin"/>
       </program>
-<!--
-      <program name="lt-proc -p">
+      <!-- <program name="lt-proc -p">
         <file name="hin-mar.autopgen.bin"/>
       </program>-->
     </pipeline>
   </mode>
-  
-  <mode name="hin-mar-anmor">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
 
-  <mode name="hin-mar-disam">
+  <mode name="hin-mar-disam-trace">
     <pipeline>
       <program name="lt-proc -w">
         <file name="hin-mar.automorf.bin"/>
@@ -376,182 +145,23 @@
     </pipeline>
   </mode>
 
-
-  <mode name="hin-mar-tagger">
+  <mode name="hin-mar-untrimmed" install="no">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
+        <file name="hin-mar.automorf-untrimmed.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="hin-mar.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <!-- <program name="apertium-tagger -g $2">
         <file name="hin-mar.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="hin-mar-pretransfer">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="hin-mar-biltrans">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="hin-mar-lextor">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m -t">
-        <file name="hin-mar.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
- 
-  <mode name="hin-mar-transfer">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
+      </program> -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="hin-mar.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
         <file name="hin-mar.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -t -b">
-        <file name="apertium-mar-hin.hin-mar.t1x"/>
-        <file name="hin-mar.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="hin-mar-interchunk">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="hin-mar.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-mar-hin.hin-mar.t1x"/>
-        <file name="hin-mar.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-mar-hin.hin-mar.t2x"/>
-        <file name="hin-mar.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="hin-mar-postchunk">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="hin-mar.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-mar-hin.hin-mar.t1x"/>
-        <file name="hin-mar.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-mar-hin.hin-mar.t2x"/>
-        <file name="hin-mar.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-mar-hin.hin-mar.t3x"/>
-        <file name="hin-mar.t3x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="hin-mar-generador">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="hin-mar.automorf.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="hin-mar.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="hin-mar.prob"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="hin-mar.autolex.bin"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="hin-mar.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-mar-hin.hin-mar.t1x"/>
@@ -568,6 +178,9 @@
       <program name="lt-proc $1">
         <file name="hin-mar.autogen.bin"/>
       </program>
+      <!-- <program name="lt-proc -p">
+        <file name="hin-mar.autopgen.bin"/>
+      </program>-->
     </pipeline>
   </mode>
 

@@ -15,6 +15,8 @@ BASENAME=apertium-$(PREFIX1)
 TARGETS_COMMON = \
      $(PREFIX1).automorf.bin \
      $(PREFIX2).automorf.bin \
+     $(PREFIX1).automorf-untrimmed.bin \
+     $(PREFIX2).automorf-untrimmed.bin \
      $(PREFIX1).autolex.bin \
      $(PREFIX2).autolex.bin \
      $(PREFIX1).rlx.bin \
@@ -32,10 +34,10 @@ TARGETS_COMMON = \
 ## Transducers, disambiguation rules, transfer
 ###############################################################################
 
-$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx 
+$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 	cg-comp $^ $@
 
-$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx 
+$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 	cg-comp $^ $@
 
 $(PREFIX1).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
@@ -43,6 +45,12 @@ $(PREFIX1).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 
 $(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
 	lt-trim $^ $@
+
+$(PREFIX1).automorf-untrimmed.bin: $(AP_SRC1)/$(LANG1).automorf.bin
+	cp -v $< $@
+
+$(PREFIX2).automorf-untrimmed.bin: $(AP_SRC2)/$(LANG2).automorf.bin
+	cp -v $< $@
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 	lrx-comp lr $< $@
@@ -114,7 +122,7 @@ apertium_mar_hin_DATA=$(TARGETS_COMMON) \
 	$(PREFIX1).prob \
 	$(PREFIX2).prob \
 	$(BASENAME).$(PREFIX1).t1x \
-	$(BASENAME).$(PREFIX2).t1x 
+	$(BASENAME).$(PREFIX2).t1x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
