@@ -26,3 +26,8 @@ dev/testvoc/streamparser.py -text
 texts/cuento.mar.txt -text svneol=unset#application/octet-stream
 texts/story.hin.txt -text svneol=unset#application/octet-stream
 texts/story.mar.txt -text svneol=unset#application/octet-stream
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
