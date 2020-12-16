@@ -57,7 +57,6 @@
 		<sdef n="dem"		c="" />
 		<sdef n="dst"		c="" />
 		<sdef n="sp" />
-		<sdef n="interr"		c="interrogative" />
 		<sdef n="aa"		c="" />
 		<sdef n="inf"		c="" />
 		<sdef n="incp"		c="" />
@@ -7449,7 +7448,7 @@
     <e><p><l>ज्योत<s n="n"/><s n="f"/></l>  <r>बात<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ज्योतिषी<s n="n"/><s n="m"/></l>  <r>ज्योतिषी<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ज्योतिष<s n="n"/><s n="nt"/></l>  <r>ज्योतिष<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>का<s n="adv"/><s n="interr"/></l>  <r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="aa"/><s n="nom"/></r></p></e>
+    <e><p><l>का<s n="adv"/><s n="itg"/></l>  <r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="aa"/><s n="nom"/></r></p></e>
     <e><p><l>काढा<s n="n"/><s n="m"/></l>  <r>काढा<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>काढ<s n="vblex"/></l>  <r>निकाल<s n="vblex"/></r></p></e>
     <e><p><l>काढणी<s n="n"/><s n="f"/></l>  <r>कटाई<s n="n"/><s n="f"/></r></p></e>
@@ -7686,7 +7685,7 @@
     <e><p><l>कात्रण<s n="n"/><s n="nt"/></l>  <r>कतरन<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>कादंबरी<s n="n"/><s n="f"/></l>  <r>उपन्यास<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>काया<s n="n"/><s n="f"/></l>  <r>काया<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>काय<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/></l>  <r>क्या<s n="prn"/><s n="itg"/><s n="sp"/><s n="aa"/></r></p></e>
+    <e><p><l>काय<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/></l>  <r>क्या<s n="prn"/><s n="itg"/><s n="sp"/><s n="aa"/></r></p></e>
     <e><p><l>कायम<s n="adv"/></l>  <r>हमेशा<s n="adv"/></r></p></e>
     <e><p><l>कायमधारापद्धती<s n="n"/><s n="f"/></l>  <r>दवामी<b/>बंदोबस्त<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>कायमचा<s n="adj"/></l>  <r>हमेशा<b/>का<s n="adj"/></r></p></e>
