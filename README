@@ -1,0 +1,78 @@
+Marathi and Hindi
+
+                            apertium-mar-hin
+===============================================================================
+
+This is an Apertium language pair for translating between Marathi and
+Hindi. What you can use this language package for:
+
+* Translating between Marathi and Hindi
+* Morphological analysis of Marathi and Hindi
+* Part-of-speech tagging of Marathi and Hindi
+
+For information on the latter two points, see subheading "For more
+information" below
+
+Requirements
+===============================================================================
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+* apertium-hin
+* apertium-mar
+
+If this does not make any sense, we recommend you look at: www.apertium.org
+
+Compiling
+===============================================================================
+
+Given the requirements being installed, you should be able to just run:
+
+$ ./configure
+$ make
+# make install
+
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you installed any prerequisite language packages using a --prefix
+to ./configure, make sure to give the same --prefix to ./configure here.
+
+Testing
+===============================================================================
+
+If you are in the source directory after running make, the following
+commands should work:
+
+$  echo "TODO test sentence 1" | apertium -d . mar-hin
+TODO test translated sentence 1
+
+Files and data
+===============================================================================
+
+* apertium-hin-mar.hin-mar.dix  - Bilingual dictionary
+* apertium-hin-mar.hin-mar.t1x  - Chunking rules for translating into Hindi
+* apertium-hin-mar.mar-hin.t1x  - Chunking rules for translating into Marathi
+* apertium-hin-mar.hin-mar.t2x  - Interchunk rules for translating into Hindi
+* apertium-hin-mar.mar-hin.t2x  - Interchunk rules for translating into Marathi
+* apertium-hin-mar.hin-mar.t3x  - Postchunk rules for translating into Hindi
+* apertium-hin-mar.mar-hin.t3x  - Postchunk rules for translating into Marathi
+* apertium-hin-mar.hin-mar.lrx  - Lexical selection rules for translating into Hindi
+* apertium-hin-mar.mar-hin.lrx  - Lexical selection rules for translating into Marathi
+* modes.xml                     - Translation modes
+
+For more information
+===============================================================================
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-mar-hin
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: #apertium on irc.freenode.net
