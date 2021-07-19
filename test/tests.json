@@ -1,0 +1,10 @@
+{
+    "hin-mar": {
+        "input": "hin-mar-input.txt",
+        "mode": "hin-mar"
+    },
+    "mar-hin": {
+        "input": "mar-hin-input.txt",
+        "mode": "mar-hin"
+    }
+}

@@ -1,0 +1,10 @@
+[OXPgIukyIPkh#0] -
+[/OXPgIukyIPkh]
+[QbgF6nrAFOI1#0] ^sent<SENT>{^@;\/;<sent>$}$
+[/QbgF6nrAFOI1]
+[eQJpm-Qsio5G#0] ^default<default>{^@7\/*7$}$
+[/eQJpm-Qsio5G]
+[mOdNAd0ydmIm#0] ^default<default>{^@०\/*०$}$%
+[/mOdNAd0ydmIm]
+[zbTuKuppzGqD#0] ^sent<SENT>{^@.\/.<sent>$}$
+[/zbTuKuppzGqD]
